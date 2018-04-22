@@ -1,0 +1,37 @@
+/*
+Styles to support website and chrome extension.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+
+body {
+	background-position: 50% 10%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.quote {
+	color: #fff;
+	text-align: center;
+	vertical-align: bottom;
+	display: table-cell;
+	padding: 0 2% 0 5%;
+}
+
+h1#quote {
+	font-family: 'PT Serif', serif;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+	float: right;
+	max-width: 37vw;
+	max-height: 85vw;
+}
+
+#logo{
+	float: left;
+	width: 20vw;
+}
